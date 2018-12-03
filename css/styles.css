@@ -42,3 +42,22 @@ header nav ul {
 class{
     text-align: center;
 }
+
+@media screen and (max-width: 30rem) {
+    header, 
+    main, 
+    footer,
+    body
+     {
+        flex-direction: column;
+    }    
+    form input, textarea {
+        margin: 2px 0;
+    }
+    .hero-text {
+        flex: none;
+    }
+    form select {
+        margin: 0;
+    }
+}
