@@ -1,0 +1,44 @@
+
+*{
+    box-sizing: border-box;
+}
+    
+header {display: flex}
+main { display: flex; flex-direction: column;}
+
+
+p{
+    font-family:serif;
+}
+
+
+#special-pic{
+    box-shadow: 3px 3px gray
+    
+    
+}
+
+.tea{
+    box-shadow: 4px 4px gray
+}
+
+img{
+    box-shadow: 3px 3px gray 
+        
+}
+
+body{
+    background-image: url(backwhite.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header nav ul {
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+class{
+    text-align: center;
+}
